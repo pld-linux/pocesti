@@ -33,9 +33,12 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 
 cp -f pocesti $RPM_BUILD_ROOT%{_bindir}
 
+gzip -9nf README FIXEDBUGS
+
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(755,root,root,755)
+%doc *.gz
 %{_bindir}
