@@ -2,7 +2,7 @@ Summary:	Pocesti
 Summary(pl):	Pocesti
 Name:		pocesti
 Version:	0.5
-Release:	0
+Release:	1
 License:	GPL
 Group:		Applications/Text
 Group(de):	Applikationen/Text
@@ -31,11 +31,11 @@ rm -rf $RPM_BUILD_ROOT
 
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-cp -f {pocesti,README} $RPM_BUILD_ROOT%{_bindir}
+cp -f pocesti $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(644,root,root,755)
+%defattr(755,root,root,755)
 %{_bindir}
