@@ -39,6 +39,6 @@ gzip -9nf README FIXEDBUGS
 rm -rf $RPM_BUILD_ROOT
 
 %files
-%defattr(755,root,root,755)
+%defattr(644,root,root,755)
 %doc *.gz
-%{_bindir}/*
+%attr(755,root,root) %{_bindir}/*
