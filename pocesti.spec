@@ -2,7 +2,7 @@ Summary:	Pocesti - utility similar to ogonkify
 Summary(pl):	Pocesti - narzêdzie podobne do ogonkify
 Name:		pocesti
 Version:	0.6
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Text
 Source0:	http://gnu.arachne.cz/%{name}-%{version}.tar.gz
