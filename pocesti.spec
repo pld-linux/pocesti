@@ -1,8 +1,8 @@
 Summary:	Pocesti
 Summary(pl):	Pocesti
 Name:		pocesti
-Version:	0.5
-Release:	2
+Version:	0.6
+Release:	1
 License:	GPL
 Group:		Applications/Text
 Group(de):	Applikationen/Text
