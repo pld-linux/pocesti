@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Text
 Source0:	http://gnu.arachne.cz/%{name}-%{version}.tar.gz
+# Source0-md5:	6767f4df8f5178644eaf74e911120408
 URL:		http://gnu.arachne.cz/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
