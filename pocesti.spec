@@ -1,5 +1,5 @@
-Summary:	Pocesti
-Summary(pl):	Pocesti
+Summary:	Pocesti - utility similar to ogonkify
+Summary(pl):	Pocesti - narzêdzie podobne do ogonkify
 Name:		pocesti
 Version:	0.6
 Release:	1
@@ -23,15 +23,13 @@ spod Mozilli.
 %setup -q
 
 %build
-gcc -o pocesti pocesti.c
+%{__cc} %{rpmldflags} %{rpmcflags} -o pocesti pocesti.c
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_bindir}
 
-cp -f pocesti $RPM_BUILD_ROOT%{_bindir}
-
+install pocesti $RPM_BUILD_ROOT%{_bindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
