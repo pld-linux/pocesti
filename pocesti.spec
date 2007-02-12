@@ -1,5 +1,5 @@
 Summary:	Pocesti - utility similar to ogonkify
-Summary(pl):	Pocesti - narzêdzie podobne do ogonkify
+Summary(pl.UTF-8):   Pocesti - narzÄ™dzie podobne do ogonkify
 Name:		pocesti
 Version:	0.6
 Release:	3
@@ -14,9 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Pocesti is similar to ogonkify, but provides unicode support, which is
 helpful for printing ISO-8859-2 characters from Mozilla.
 
-%description -l pl
+%description -l pl.UTF-8
 Pocesti jest programem podobnym do ogonkify, ale zawiera wsparcie dla
-unicode, dziêki czemu mo¿liwy jest poprawny wydruk polskich znaków
+unicode, dziÄ™ki czemu moÅ¼liwy jest poprawny wydruk polskich znakÃ³w
 spod Mozilli.
 
 %prep
