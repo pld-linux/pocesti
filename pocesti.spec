@@ -1,5 +1,5 @@
 Summary:	Pocesti - utility similar to ogonkify
-Summary(pl.UTF-8):   Pocesti - narzędzie podobne do ogonkify
+Summary(pl.UTF-8):	Pocesti - narzędzie podobne do ogonkify
 Name:		pocesti
 Version:	0.6
 Release:	3
